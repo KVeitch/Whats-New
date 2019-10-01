@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import local from '../../data/local';
 import entertainment from '../../data/entertainment';
 import science from '../../data/science';
-import tech from '../../data/technology';
+import health from '../../data/health'
+import technology from '../../data/technology';
 import './App.css';
 import Menu from '../Menu/Menu';
 import SearchForm from '../SearchForm/SearchForm';
@@ -15,8 +16,9 @@ class App extends Component {
     this.state = {
       local,
       entertainment,
-      tech,
-      science
+      technology,
+      science,
+      health
     }
     this.state.current = local
   }
@@ -25,13 +27,13 @@ class App extends Component {
     return (
       <div className="app">
         <SearchForm />
-        <Menu changeNewsFeeds={this.changeNewsFeeds}/>
+        <Menu changeNewsFeed={this.changeNewsFeed} />
         <NewsContainer news={this.state.current} />
       </div>
     );
   }
-  changeNewsFeeds(e){
-    this.state.current.setState(this.state[e.target.id]);
+  changeNewsFeed = (event) => {
+    this.setState({current: this.state[event.target.id]});
   }
 }
 
