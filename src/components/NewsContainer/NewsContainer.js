@@ -15,7 +15,7 @@ const NewsContainer = (news) => {
     )
   })
   return <div className="news-container">
-    <p id='news-container--anchor' hidden>top of news area</p>
+    <div id='news-container--anchor' ></div>
     {newsData}
   </div>
  };

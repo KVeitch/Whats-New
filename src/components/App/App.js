@@ -24,10 +24,11 @@ export default class App extends Component {
   }
 
   changeNewsFeed = (event) => {
-    window.location.href = '#news-container--anchor';
     this.setState({current: this[event.target.dataset.link]});
-    document.querySelectorAll('.btn').forEach(btn => btn.className = 'btn');
-    event.target.closest('li').className += ' active-menu';
+    event.target.closest('li').parentNode.childNodes
+      .forEach(child => child.classList.remove('active-menu'));
+    event.target.closest('li').classList.add('active-menu');
+    window.location.href = '#news-container--anchor';
   }
   
   searchNews = (searchText) => {
