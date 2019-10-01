@@ -2,8 +2,11 @@
   grid-area: navbar;
   color:white
 }
-
-.navbar ul{
+.icon {
+  height:25px;
+  margin-right: 12px;
+} 
+.navbar ul {
   list-style: none;
 }
 

@@ -15,6 +15,7 @@ const NewsContainer = (news) => {
     )
   })
   return <div className="news-container">
+    <a id='news-container--anchor'></a>
     {newsData}
   </div>
  };
