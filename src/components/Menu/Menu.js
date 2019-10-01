@@ -9,24 +9,24 @@ import technology from '../../images/technology.svg'
 const Menu = (data) => {
   return <div className='navbar'>
     <ul className='btns-list'>
-      <li className='active-menu' id='local' onClick={e => data.changeNewsFeed(e)}>
-        <img src={location} className="icon" alt='location marker'/>
+      <li className='active-menu' data-link='local' onClick={e => data.changeNewsFeed(e)}>
+        <img data-link='local' src={location} className="icon" alt='line art of a location marker'/>
         Local News
       </li>
-      <li id='technology' onClick={e => data.changeNewsFeed(e)}>
-        <img src={technology} className="icon" alt='location marker'/>
+      <li data-link='technology' onClick={e => data.changeNewsFeed(e)}>
+        <img data-link='technology' src={technology} className="icon" alt='lightbulb with gears'/>
         Technology
       </li>
-      <li id='entertainment' onClick={e => data.changeNewsFeed(e)}>
-        <img src={entertainment} className="icon" alt='location marker'/>
+      <li data-link='entertainment' onClick={e => data.changeNewsFeed(e)}>
+        <img data-link='entertainment'src={entertainment} className="icon" alt='two tickes to a show'/>
         Entertainment
       </li>
-      <li id='science' onClick={e => data.changeNewsFeed(e)}>
-        <img src={science} className="icon" alt='location marker'/>
+      <li data-link='science' onClick={e => data.changeNewsFeed(e)}>
+        <img data-link='science' src={science} className="icon" alt='zooming rocketship'/>
         Science
       </li>
-      <li id='health' onClick={e => data.changeNewsFeed(e)}>
-        <img src={health} className="icon" alt='location marker'/>
+      <li data-link='health' onClick={e => data.changeNewsFeed(e)}>
+        <img data-link='health' src={health} className="icon" alt='heart with E. K. G. lines'/>
         Health
       </li>
     </ul>

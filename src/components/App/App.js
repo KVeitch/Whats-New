@@ -34,7 +34,7 @@ class App extends Component {
   }
   changeNewsFeed = (event) => {
     window.location.href = '#news-container--anchor'
-    this.setState({current: this.state[event.target.id]});
+    this.setState({current: this.state[event.target.dataset.link]});
   }
 }
 
