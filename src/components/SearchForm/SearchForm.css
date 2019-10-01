@@ -1,0 +1,43 @@
+header {
+  grid-area: top;
+  height: 80px;
+  display:flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  color:white;
+  font-size: 20px;
+}
+
+.search-bar h1 {
+  display:inline-block;
+}
+
+.app-name {
+  font-size: 35px;
+  min-width: 250px;
+}
+
+.yellow {
+  color: orange;
+}
+
+.search__input {
+  height: 38px;
+  width: calc(100% - 450px);
+  padding-left:10px;
+  border: 0px;
+  background-color: #292a3f;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.search__btn {
+  height: 38px;
+  background-color: #B56AF0;
+  border-radius: 19px;
+  width: 180px;
+  margin: 0 10px;
+  line-height: 38px;
+  font-size: 16px;
+  
+}
