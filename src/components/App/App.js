@@ -10,33 +10,28 @@ import SearchForm from '../SearchForm/SearchForm';
 import NewsContainer from '../NewsContainer/NewsContainer';
 
 
-class App extends Component {
+export default class App extends Component {
   constructor() {
     super();
+    this.local = local
+    this.entertainment = entertainment
+    this.technology = technology
+    this.health = health
+    this.science = science
     this.state = {
-      local,
-      entertainment,
-      technology,
-      science,
-      health
+      current:local
     }
-    this.state.current = local
   }
 
-  
   changeNewsFeed = (event) => {
-    event.preventDefault();
     window.location.href = '#news-container--anchor';
-    this.setState({current: this.state[event.target.dataset.link]});
-    document.querySelectorAll('.btn').forEach(btn => btn.className = 'btn')
-    event.target.closest('li').className += ' active-menu'
+    this.setState({current: this[event.target.dataset.link]});
+    document.querySelectorAll('.btn').forEach(btn => btn.className = 'btn');
+    event.target.closest('li').className += ' active-menu';
   }
   
-  searchNews = (searchText, event) => {
-    event.preventDefault();
-    let allNews = [...this.state.local, ...this.state.entertainment, 
-      ...this.state.technology, ...this.state.science, ...this.state.health];
-    let searchResults = allNews
+  searchNews = (searchText) => {
+    let searchResults = this.state.current
     .filter(story => story.headline.toLowerCase().includes(searchText) 
       || story.description.toLowerCase().includes(searchText));
     this.setState({current:searchResults});
@@ -57,4 +52,4 @@ class App extends Component {
   }
 }
 
-export default App;
+// export default App;
