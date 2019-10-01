@@ -1,0 +1,28 @@
+.navbar {
+  grid-area: navbar;
+  color:white
+}
+
+.navbar ul{
+  list-style: none;
+}
+
+.navbar li {
+  color:white;
+  padding-left:20px;
+  border-radius: 0 40px 40px 0;
+  height: 60px;
+  font-size: 24px;
+  margin: 5px 0;
+  display:flex;
+  align-items: center;
+}
+.navbar li:hover {
+  background-color: rgb(255, 165, 0);
+}
+
+
+
+.active-menu {
+  background-color: rgba(255, 165, 0, 0.75);
+}
