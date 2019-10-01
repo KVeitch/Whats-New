@@ -8,17 +8,15 @@ class SearchForm extends Component {
       search:''
     }
   }
-  handleChange = (e) => {
-    e.preventDefault();
-    this.setState({[e.target.name]:e.target.value});
-    console.log(this.state.search)
+  handleChange = (event) => {
+    event.preventDefault();
+    this.setState({[event.target.name]:event.target.value});
   }
 
-  handleSubmit = (e) => {
-    // const searchText = this.state.search;
-    // this.props.searchNews(searchText, e);
+  handleSubmit = (event) => {
+    const searchText = this.state.search.toLowerCase();
+    this.props.searchNews(searchText, event);
     this.setState({ search:'' });
-    console.log(this.state.search)
   }
 
   render() {
