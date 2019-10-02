@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .app {
@@ -10,7 +11,7 @@
                         'navbar news-container';  
   grid-template-columns: 250px 1fr;
   grid-template-rows: 80px 1fr;
-  background: #141527;
+  background:#273c75;
   height: 100vh;
   text-align: center;
   width: 100%;

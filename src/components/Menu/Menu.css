@@ -2,10 +2,12 @@
   grid-area: navbar;
   color:white
 }
+
 .icon {
   height:25px;
   margin-right: 12px;
 } 
+
 .navbar ul {
   list-style: none;
 }
@@ -21,12 +23,13 @@
   align-items: center;
   cursor: pointer;
 }
+
 .navbar li:hover {
-  background-color: rgb(255, 165, 0);
+  background-color:#fbc531;
 }
-
-
 
 .active-menu {
-  background-color: rgba(255, 165, 0, 0.75);
+  background-color: rgba(251, 197, 49, .8);
 }
+
+
