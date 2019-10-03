@@ -26,6 +26,7 @@
 
 .navbar li:hover {
   background-color:#fbc531;
+  box-shadow: 5px 5px #121e3f;
 }
 
 .active-menu {
