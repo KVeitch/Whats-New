@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchForm should match snapshot 1`] = `
+<header
+  className="header"
+>
+  <h1
+    className="app-name"
+  >
+    What's 
+    <span
+      className="yellow"
+    >
+      News
+    </span>
+    ?
+  </h1>
+  <input
+    className="search__input"
+    name="search"
+    onChange={[Function]}
+    placeholder="Search for news articles here..."
+    type="text"
+    value=""
+  />
+  <div
+    className="search__btn"
+    onClick={[Function]}
+  >
+    Search Now
+  </div>
+</header>
+`;
