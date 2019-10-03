@@ -9,7 +9,7 @@ import technology from '../../images/technology.svg'
 const Menu = (data) => {
   return <div className='navbar'>
     <ul className='btns-list'>
-      <li className='btn' data-link='local' onClick={e => data.changeNewsFeed(e)}>
+      <li  className='btn'  data-link='local' onClick={e => data.changeNewsFeed(e)}>
         <img data-link='local' src={location} className="icon" alt='line art of a location marker'/>
         Local News
       </li>

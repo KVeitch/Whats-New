@@ -10,7 +10,7 @@ class SearchForm extends Component {
   }
   handleChange = (event) => {
     event.preventDefault();
-    this.setState({[event.target.name]:event.target.value});
+    this.setState({search:event.target.value});
   }
 
   handleSubmit = (event) => {
@@ -21,7 +21,7 @@ class SearchForm extends Component {
 
   render() {
     return <header className='header'>
-      <h1 className='app-name'>What's <span className='yellow'>News?</span></h1>
+      <h1 className='app-name'>What's <span className='yellow'>News</span>?</h1>
       <input 
         type= 'text'
         name= 'search'

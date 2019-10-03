@@ -25,15 +25,19 @@ header {
   width: calc(100% - 450px);
   padding-left:10px;
   border: 0px;
-  background-color: #292a3f;
+  background-color: #33467a;
   margin-left: 15px;
   font-size: 20px;
+  color: white;
+}
+
+.search__input::placeholder {
   color:white;
 }
 
 .search__btn {
   height: 38px;
-  background-color: #B56AF0;
+  background-color: #8c7ae6;
   border-radius: 19px;
   width: 180px;
   margin: 0 10px;

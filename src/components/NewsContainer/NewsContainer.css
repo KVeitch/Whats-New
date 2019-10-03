@@ -1,5 +1,4 @@
 .news-container {
   grid-area: news-container;
-  /* display:flex; */
   overflow: scroll;
 }
