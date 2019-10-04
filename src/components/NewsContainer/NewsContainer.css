@@ -1,4 +1,14 @@
 .news-container {
   grid-area: news-container;
   overflow: scroll;
+  height: calc(100vh - 80px);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+  background:#273c75;
 }
