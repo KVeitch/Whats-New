@@ -13,10 +13,16 @@ class SearchForm extends Component {
     this.setState({search:event.target.value});
   }
 
-  handleSubmit = (event) => {
+  handleSubmit = () => {
     const searchText = this.state.search.toLowerCase();
-    this.props.searchNews(searchText, event);
+    this.props.searchNews(searchText);
     this.setState({ search:'' });
+  }
+
+  handleEnterKey = (event) => {
+    if (event.keyCode === 13) {
+      this.handleSubmit()
+    }
   }
 
   render() {
@@ -27,6 +33,7 @@ class SearchForm extends Component {
         name= 'search'
         value= {this.state.search}
         onChange= {this.handleChange}
+        onKeyDown= {this.handleEnterKey}
         className='search__input' 
         placeholder='Search for news articles here...'
       />
