@@ -22,10 +22,9 @@ describe('App', () => {
 
   let wrapper;
   beforeEach(() => {
-    wrapper= shallow(<App 
-    
-    />)
+    wrapper= shallow(<App />)
   })
+
   describe('default data sets', () => {
     it('should have a local property', () => {
       expect(wrapper.instance().local).toEqual(local)
@@ -57,24 +56,11 @@ describe('App', () => {
     expect(wrapper).toMatchSnapshot()
   });
 
-  // it('should change state when', () => {
-  //   let event = {
-  //     target:{
-  //             dataset:{
-  //                       link:'local'
-  //                     }
-  //                 }
-  //         }
-  //   expect(wrapper.state('current')).toEqual(local)
-  //   wrapper.instance().changeNewsFeed(event);
-  //   expect(wrapper.state('current')).toEqual(health)
-  // });
-
   it('should return searched articles', () => {
     expect(wrapper.state().current).toEqual(local)
-    console.log('Before: ', wrapper.state().current)
     wrapper.instance().searchNews('pepsi');
-    console.log('After: ', wrapper.state().current)
     expect(wrapper.state().current).toEqual(mockSearchReturn);
   });
+
+  
 })
