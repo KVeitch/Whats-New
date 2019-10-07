@@ -19,6 +19,7 @@ exports[`SearchForm should match snapshot 1`] = `
     className="search__input"
     name="search"
     onChange={[Function]}
+    onKeyDown={[Function]}
     placeholder="Search for news articles here..."
     type="text"
     value=""

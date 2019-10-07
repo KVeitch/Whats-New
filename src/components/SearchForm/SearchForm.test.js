@@ -43,4 +43,13 @@ describe ('SearchForm', () => {
     expect(wrapper.state().search).toEqual('')
   });
 
+  it('should run handle Submit when the enter key is pressed', () => {
+    wrapper.instance().handleSubmit = jest.fn(); 
+    wrapper.instance().forceUpdate();
+    // let mockEvent = { keyCode:13 }
+    wrapper.find('.search__input').simulate('keydown', { keyCode:13 });
+    expect(wrapper.instance().handleSubmit).toHaveBeenCalled()
+  
+  })
+
 });
