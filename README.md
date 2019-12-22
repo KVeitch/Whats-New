@@ -1,6 +1,6 @@
 # What's News?
 
-[Click here for the live site](ttps://kveitch.github.io/Whats-News/)
+[Click here for the live site](https://kveitch.github.io/Whats-News/)
 
 ## Setup
 
