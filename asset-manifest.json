@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Whats-New/static/css/main.28543bf9.chunk.css",
-    "main.js": "/Whats-New/static/js/main.e755f767.chunk.js",
-    "main.js.map": "/Whats-New/static/js/main.e755f767.chunk.js.map",
-    "runtime-main.js": "/Whats-New/static/js/runtime-main.37d1c27e.js",
-    "runtime-main.js.map": "/Whats-New/static/js/runtime-main.37d1c27e.js.map",
-    "static/js/2.563b28a4.chunk.js": "/Whats-New/static/js/2.563b28a4.chunk.js",
-    "static/js/2.563b28a4.chunk.js.map": "/Whats-New/static/js/2.563b28a4.chunk.js.map",
-    "index.html": "/Whats-New/index.html",
-    "precache-manifest.94649dbc31d0563197622b1fa8b60710.js": "/Whats-New/precache-manifest.94649dbc31d0563197622b1fa8b60710.js",
-    "service-worker.js": "/Whats-New/service-worker.js",
-    "static/css/main.28543bf9.chunk.css.map": "/Whats-New/static/css/main.28543bf9.chunk.css.map",
-    "static/media/arrow-to-right.svg": "/Whats-New/static/media/arrow-to-right.269bffbd.svg",
-    "static/media/entertainment.svg": "/Whats-New/static/media/entertainment.e8f18103.svg",
-    "static/media/health.svg": "/Whats-New/static/media/health.537673a8.svg",
-    "static/media/location.svg": "/Whats-New/static/media/location.e0bd0282.svg",
-    "static/media/science.svg": "/Whats-New/static/media/science.d4891c9b.svg",
-    "static/media/technology.svg": "/Whats-New/static/media/technology.b94f4bc8.svg"
+    "main.css": "/Whats-News/static/css/main.28543bf9.chunk.css",
+    "main.js": "/Whats-News/static/js/main.e755f767.chunk.js",
+    "main.js.map": "/Whats-News/static/js/main.e755f767.chunk.js.map",
+    "runtime-main.js": "/Whats-News/static/js/runtime-main.3893683f.js",
+    "runtime-main.js.map": "/Whats-News/static/js/runtime-main.3893683f.js.map",
+    "static/js/2.563b28a4.chunk.js": "/Whats-News/static/js/2.563b28a4.chunk.js",
+    "static/js/2.563b28a4.chunk.js.map": "/Whats-News/static/js/2.563b28a4.chunk.js.map",
+    "index.html": "/Whats-News/index.html",
+    "precache-manifest.799ea7a2a754bf4559a30310fc6c3e43.js": "/Whats-News/precache-manifest.799ea7a2a754bf4559a30310fc6c3e43.js",
+    "service-worker.js": "/Whats-News/service-worker.js",
+    "static/css/main.28543bf9.chunk.css.map": "/Whats-News/static/css/main.28543bf9.chunk.css.map",
+    "static/media/arrow-to-right.svg": "/Whats-News/static/media/arrow-to-right.269bffbd.svg",
+    "static/media/entertainment.svg": "/Whats-News/static/media/entertainment.e8f18103.svg",
+    "static/media/health.svg": "/Whats-News/static/media/health.537673a8.svg",
+    "static/media/location.svg": "/Whats-News/static/media/location.e0bd0282.svg",
+    "static/media/science.svg": "/Whats-News/static/media/science.d4891c9b.svg",
+    "static/media/technology.svg": "/Whats-News/static/media/technology.b94f4bc8.svg"
   }
 }
